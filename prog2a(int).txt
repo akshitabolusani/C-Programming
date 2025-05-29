@@ -1,0 +1,26 @@
+int   datatype
+-----------------
+1) How  much  memory  space  does  int  take  ?  --->  4B  i.e.  32  bits
+								                     Eg: 1010  0100  1100  0110  1101  0001  1111   0001
+
+2) What  is  the  first  bit  called  ?  --->  Sign  bit
+     What  is  the  length  of  magnitude ?  --->  31  bits
+
+3) What  is  the  maximum  value  of  integer ?  --->  2 ^ 31 - 1
+     What  is  the  minimum  value  of  integer ?  --->  -2 ^ 31 
+     
+4) Why  is  int  called  an  extension  of  short ?  ---> Since  short  is  2B  and  int  is  4B
+
+5) What  are  the  macros  for  maximum  and  minimum  values  of  integer ?  --->  INT_MAX  and  INT_MIN  
+
+6) Where  are  INT_MAX  and  INT_MIN  defined ?  --->  In  <limits.h>  file
+
+7) What  is  the  format  for  integer ?  --->  %d  (or) %i
+
+8) What  is  the  most  frequently  used  data  type  in  'c'  language ?  --->  int 
+
+9) integer  x;
+    Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  integer  datatype
+
+10) Int  x;
+      Is  the  above  statement  valid ?  --->  No  becoz  int  is  a  keyword  and  hence  it  should  be  in  lowercase  

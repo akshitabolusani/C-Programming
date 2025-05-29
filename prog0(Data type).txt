@@ -1,0 +1,22 @@
+Data  type
+------------
+1) What  is  a  datatype ?  --->  The  type  of  value  that  a  variable  can  hold
+
+2) int  x;
+    Which  value  can  variable  'x'  hold ? --->  Integer  value  becoz  type  of  'x'  is  int
+
+3) float   m;
+    Which  value  can  variable  'm'  hold  ? --->  Float  value  becoz  type  of  'm'  is  float
+
+4) char  ch;
+    Which  value  can  variable  ch  hold ? --->  Character  becoz  type  of  ch  is  char
+
+5) How  many  data  types  are  in  'c'  language ?  --->  10
+
+6) What  are  the  five  different  int  types ?  --->  short , int , long , long  long  and  unsigned
+    What  are  the  two  different  float  types ?  --->  float  and  double  
+    What  are  the  two  different  char  types ?  --->  char  and  unsigned  char
+    What  is  the  remaining  10th  type ?  --->  bool
+
+7) string  s;
+    Is  the  above  statement  valid  ?  --->  No  becoz  there  is  no  string  type  in  'c'  language

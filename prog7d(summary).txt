@@ -1,0 +1,14 @@
+Summary
+-----------
+					float				double
+---------------------------------------------------------------------------------------
+    Size	                         4B		      			  8B
+
+    Format	                      %f  (or)  %g	             %lf  (or)  %lg
+
+    Suffix                        F  (or)  f	                     D (or)  d  which  is  optional
+
+    Macro  for  max  value     FLT_MAX			    DBL_MAX
+
+    Macro  for  min  value      FLT_MIN			    DBL_MIN
+      

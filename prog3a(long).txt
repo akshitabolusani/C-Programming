@@ -1,0 +1,26 @@
+long  integer
+---------------
+1) int  and  long  are  same  in  gcc  compiler
+
+2) What  is  the  size  of  long  integer ?  --->  4B  i.e.   32 bits
+
+3) What  is  the  maximum  value  of  long  integer ?  --->  2 ^ 31 - 1
+     What  is  the  minimum  value  of  long  integer ?  ---> -2 ^ 31 
+
+4) What  are  the  macros  for  maximum  and  minimum  values  of  long  integer ?  --->  LONG_MAX  and  LONG_MIN  
+
+5) Where  are  LONG_MAX  and  LONG_MIN  defined  ?  ---> In   <limits.h>  file
+
+6) What  is  25L  called ?  --->  Long  integer  due  to  L
+     What  is  25  called ?  --->  Integer  becoz  L  is  missing
+
+7) How  are  integer  and  long  integer  distinguished ?  --->  With  L  (or)  l
+
+8) What  is  the  format  for  long  integer ?  --->  %ld  (or)  %li
+
+9) long  int  x;
+    long  x;
+    Are  the  above  two  statements  same ?  --->  Yes  becoz  int  is  optional  in  long  int
+
+10) Long  x;
+      Is  the  above  statement  valid ?  --->  No  becoz  long  is  a  keyword  and  hence  it  should  be  in  lowercase

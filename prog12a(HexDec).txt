@@ -1,0 +1,33 @@
+Hexa-decimal  integer
+-------------------------
+1) What  is  the  prefix  of  hexa-decimal  number ?  --->  0X  (or)  0x
+
+2) Which  characters  are  permitted  in  hexa-decimal  number ? --->  0  to  9  and  A  to  F  (or)   a   to   f
+
+3) What  is  the  value  of  A ?  --->  10
+    What  is  the  value  of  B ?  --->  11
+    What  is  the  value  of  C  ?  ---> 12
+    What  is  the  value  of  D  ?  ---> 13
+    What  is  the  value  of  E  ?  ---> 14
+    What  is  the  value  of  F  ?  --->  15
+
+4) What  is  the  base  of  hexa-decimal  number ? --->  6 + 10 = 16  due  to  6  alphabets  and  10  digits
+
+5) What  is  the  format  for  hexa-decimal  number ? --->  %X  (or)  %x
+
+6) Which  of  the  following  are  valid  hexa-decimal  numbers ?      
+     a) 0XA7G9B  --->   Invalid  due  to  'G'
+     b) 0X9248  --->  Valid
+     c) A7B9  --->  Invalid  becoz  there  is  no  prefix  0X
+     d) 0XBEEF  --->  Valid
+     e) 0XBEER  --->  Invalid  due  to  'R'
+     f) 0XA7B9  --->  Valid
+     g) 06247  --->  Invalid  becoz  there  is  no  prefix  0X
+     h) 0xa7b9  ---> Valid
+     i) 0B10101  --->  Invalid  becoz  there  is  no  prefix  0X
+     j) 0xA7B9  --->  Valid
+     k) 9248  --->  Invalid  becoz  there  is  no  prefix  0X
+     l) 0Xa7b9  ---> Valid
+
+7) hex  dec  int  x  = 0XA7B9  
+     Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  keyword  hex  dec

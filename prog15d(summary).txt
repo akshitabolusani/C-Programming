@@ -1,0 +1,11 @@
+Summary
+-----------
+			 Hexa-Decimal                     Octal       Binary                Decimal
+-------------------------------------------------------------------------------------------
+  Base                     16                                     8               2                        10
+ 
+  Format           %X  (or)  %x                        %o             No                 %d  (or)  %i
+
+  Valid  digits    0  to  9  and  A  to  F       0  to  7       0  to  1               0  to   9
+
+  Prefix               0X  (or)  0x                         0               0B                   Nothing

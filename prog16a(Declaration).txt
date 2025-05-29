@@ -1,0 +1,35 @@
+Declaration  statement
+---------------------------
+1) int  x;
+   What  does  the  above  statement  do ? --->  Creates  variable  'x'  and  allocates  4B  of  memory  to  variable  'x'
+
+2) float  m;
+     What  does  the  above  statement  do ? --->  Creates  variable  'm'  and  allocates  4B  of  memory  to  variable  'm'
+
+3) char  ch;
+    What  does  the  above  statement  do ? --->  Creates  variable  ch  and  allocates  1B  of  memory  to  variable  ch
+
+4) int   x;
+    float  m;
+    char  ch;
+    What  are  the  above  three  statements  called ?  --->  Declaration  statements
+
+5) In  general,  what  does  declaration  statement  do ?  ---> Creates  a  variable  and  allocates  memory  to  the  variable
+
+6) What  is  the  pre-requisite  to  use  a  variable ?   --->  It  needs  to  be  declared
+
+7) In  other  words,  variable  can  not  be  used  without  declaration
+
+8) Where  can  variables  be  declared ?  --->  Anywhere  in  the  program  but  not  necessarily  at  the  begining
+
+9) Can  variable  be  declared  after  it  is  used  ?  --->  No
+
+10) In  other  words, variable  needs  to  be  declared  before  its  first  use
+
+11) If  there  are  10  variables,  all  of  them  should  be  declared  before  they  are  used
+
+
+Note:
+1) Where  can  variables  be  declared  in  turbo  'c'  ? --->  At  the  begining 
+
+2) Where  can  variables  be  declared  in  gcc ? --->  Any  where  in  the  program

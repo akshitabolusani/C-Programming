@@ -1,0 +1,22 @@
+Octal  integer
+----------------
+1) What  is  the  prefix  of  octal  number ?  --->  0
+
+2) Which  digits  are  permitted  in  octal  number ? --->  0  to  7
+
+3) What  is  the  base  of  octal  number ?  --->  8  due  to  eight  digits  0 to  7
+
+4) Which  digits  are  not  permitted  in  octal  number ?  --->  8  and  9
+
+5) What  is  the  format  for  octal  number ? --->  %o  but  not  %O
+ 
+6) Which  of  the  following  are  valid  octal  numbers ?
+     a) 09248  --->  Invalid  due  to  9  and  8
+     b) 06247  --->  Valid
+     c) 2315  ---> Invalid  becoz  there  is  no  prefix  0
+     d) 0X1234  ---> Invalid  due  to  'X'
+     e) 0B10101  ---> Invalid  due  to  'B'
+     f) 062C47  --->  Invalid  due  to  'C'
+
+7) octal  int  x  = 06247  
+     Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  octal  keyword 

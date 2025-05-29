@@ -1,0 +1,28 @@
+double  data  type
+----------------------
+1) What  is  the  size  of  double ?  --->  8B  i.e. 64  bits
+
+2) What  is  another  name  of  double ?  --->  long  float
+
+3) How  are  float  and  double  distinguished  ?  --->  With  F   (or)  f
+
+4) What  is  the  suffix  of  double  number  ?  --->  D  (or)  d   which  is  optional  becoz  default  is  double
+
+5) What  is  10.8D  called ?  --->  double  number  due  to  'D'
+    What  is  35.4  called ?  --->  double  number  becoz  'D'  is  optional
+    What  is  25.6d  called ?  ---> double  number  due  to  'd'
+    What  is  9.6f  called ?  --->  float  number
+
+6) What  are  the  macros  for  maximum  and  minimum  values  of  double ?  ---> DBL_MAX  and   DBL_MIN  
+
+7) Where  are  they  defined ?  --->  In  <float.h>  file
+
+8) What  is  the  format  for  double ?  --->  %lf  (or)  %lg
+
+9) Why  is  double  called  an  extension  of  float ?   --->  Since  float  is  4B  and  double  is  8B
+
+10) long  float  x;
+      Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  long  float  datatype  
+
+11) Double  x;
+      Is  the  above  statement  valid ?  --->  No  becoz  double  is  a  keyword  and  hence  it  should  be  in  lowercase  

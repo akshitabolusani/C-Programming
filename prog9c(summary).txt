@@ -1,0 +1,12 @@
+Summary
+-----------
+				char			unsigned  char
+----------------------------------------------------------------
+	Size                  1B                           1B
+
+	Format	         %c                           %c
+
+	Max  value       2 ^ 7 - 1                  2 ^ 8 - 1
+
+	Min  value        -2 ^ 7	                   0
+	

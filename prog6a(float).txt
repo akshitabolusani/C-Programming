@@ -1,0 +1,16 @@
+float  data  type
+--------------------
+1) What  is  the  size  of  float ?  --->  4B  i.e.  32  bits
+
+2) What  are  the  macros  for  maximum  and  minimum  values  of  float ?  --->  FLT_MAX  and  FLT_MIN  
+
+3) Where  are  they  defined ?  --->  In  <float.h>  file
+
+4) What  is  the  format  for  float ?  --->  %f  (or)  %g
+
+5) What  is  the  suffix  of  float  number  ?  --->  F  (or)  f
+
+6) What  is  10.8f  called ?  --->  Float  number  due  to  'f'
+
+7) Float  x;
+    Is  the  above  statement  valid ?  ---> No  becoz  float  is  a  keyword  and  hence  it  should  be  in  lowercase  

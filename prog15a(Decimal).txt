@@ -1,0 +1,19 @@
+Decimal  integer
+-------------------
+1) What  is  the  prefix  of  decimal  number ?  --->  Nothing
+
+2) Which  digits  are  permitted  in  decimal  number ? --->  0  to  9
+
+3) What  is  the  base  of  decimal  number ?  --->  10  due  to  ten  digits  0 - 9
+
+4) What  is  the  format  of  decimal  number ? --->  %d  (or)  %i
+
+5) Which  of  the  following  are  valid  decimal  numbers ?
+     a) A7B9  --->  Inavlid  due  to  alphabets
+     a) 92048  ---> Valid
+     c) 06247  ---> Invalid  due  to  prefix  0     
+     d) 0X1234  --->  Invalid   due  to  prefix  0X
+     e) 0B10101  --->  Invalid   due  to  prefix  0B
+
+6) decimal  int  x  = 9248  
+     Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  decimal  keyword  

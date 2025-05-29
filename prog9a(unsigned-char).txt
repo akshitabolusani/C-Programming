@@ -1,0 +1,30 @@
+unsigned  char  datatype
+-----------------------------
+1) What  is  the  size  of  unsigned  char ?  --->  1B  i.e. 8  bits
+									     Eg: 1010  0100 
+
+2) What  is  the  length  of  magnitude ?  --->  8  bits  becoz  there  is  no sign  bit
+
+3) Why  is  there  no  sign  bit  ?  --->  Since  it  is  unsigned
+
+4) What  is  the  maximum  value  of  unsigned  character ?  --->  2 ^ 8 - 1 = 255
+     What  is  the  minimum  value  of  unsigned  character ?  --->  0
+     
+5) Why  are  -ve  numbers  not  permitted ?  --->  Since  they  are  signed numbers  due  to  -  sign
+
+6) How  is  unsigned  char  different  from  char ?  --->  Both  +ve  and  -ve  values  are  permitted  in  char  but  
+										          unsigned  char  supports  only  +ve  values
+
+7) What  is  the  macro  for  maximum  value  of  unsigned  char ?  --->  UCHAR_MAX  
+     What  is  the  macro  for  minimum  value  of  unsigned  char ?  --->  No  macro  becoz  min  value  is  0
+
+8) Where  is  UCHAR_MAX  defined ?  --->  In  <limits.h>  file
+
+9) What  is  the  format  for  unsigned  char ?  --->  %c
+
+10) unsigned  char  ch;
+      unsigned  ch;  
+     Are  the  above  two  statements  same ?  --->  No  becoz  unsigned  ch  is  interpreted  as  unsigned  int  ch
+
+11) Unsigned  char  ch;
+      Is  the  above  statement  valid ?  --->  No  becoz  unsigned  is  a  keyword  and  hence  it  should  be  in  lowercase

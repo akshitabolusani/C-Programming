@@ -1,0 +1,27 @@
+long  long  datatype
+------------------------
+1) How  much  memory  space  does  long  long  take  ?  --->  8B  i.e.  64  bits
+
+2) What  is  the  maximum  value  of  long  long  integer ?  --->  2 ^ 63 - 1
+     What  is  the  minimum  value  of  long  long  integer ?  --->  -2 ^ 63
+     
+3) Why  is  long  long  called  an  extension  of  long ?  --->  Since  long  is  4B  and  long   long  is  8B
+
+4) What  is  25LL  called ?  --->  long  long  integer  due  to  LL
+     What  is  25L  called ?  --->   long  integer  due  to  L
+     What  is  25  called ?  --->   Integer  becoz  there  is  no  L
+
+5) How  are  long  and  long  long  distinguished  ?  --->  LL  (or)  ll  for  long  long  and  L  for  long
+
+6) What  are  the  macros  for  maximum  and  minimum  values  of  long  long  integer ?  --->  LONG_LONG_MAX  and  LONG_LONG_MIN  
+
+7) Where  are  they  defined  ?  --->  In  <limits.h>  file
+
+8) What  is  the  format  for  long  long  integer ?  --->  %lld  (or)  %lli
+
+9) long  long  int  x;
+    long  long  x;  
+    Are  the  above  two  statements  same ?  --->  Yes  becoz  int  is  optional  in  long  long  int
+
+10) Long  Long  x;
+      Is  the  above  statement  valid ?  --->  No  becoz  long  long  is  a  keyword  and  hence  it  should  be  in  lowercase  

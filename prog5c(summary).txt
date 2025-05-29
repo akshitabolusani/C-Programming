@@ -1,0 +1,21 @@
+Summary
+------------
+		             short                       int               long                 long   long            unsigned
+---------------------------------------------------------------------------------------------------------------------
+      Size                  2B                         4B                 4B                       8B                         4B
+      
+      Format          %hd  (or) %hi      %d   (or)  %i     %ld  (or) %li      %lld   (or)  %lli         %u
+            
+      Suffix            ---                          ---               L  (or) l                LL (or) ll                 U (or)  u
+      
+      Max  value      2 ^ 15 - 1            2 ^ 31 - 1         2 ^ 31 - 1            2 ^ 63 - 1             2 ^ 32 - 1    
+
+      Min  value       -2 ^ 15                 -2 ^ 31             -2 ^ 31                -2 ^ 63                      0
+---------------------------------------------------------------------------------------------------------------------
+1) int  is  2B  in  turbo-c  compiler  and  4B  in  gcc  compiler
+
+2) Sizes  vary  from  compiler  to  compiler  and  they  are  not  fixed
+
+3) Sizes  are  fixed  in  java  but  not  in  'c'  language
+
+4) Are  max  and  min  values  fixed ?  --->  No  and  they  vary  from  compiler  to  compiler

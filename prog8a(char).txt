@@ -1,0 +1,22 @@
+char  datatype
+-----------------
+1) What  is  the  size  of  character ? --->  1B  i.e.  8  bits
+								     Eg: 1010   0101
+
+2) What  is  the  first  bit  called ?  --->  Sign  bit  
+     What  is  the  length  of  magnitude ?  --->  7  bits
+
+3) What  is  the  maximum  value  of  character ?  --->  2 ^ 7 - 1 = 127   
+    What  is  the  minimum  value  of  character ?  --->  -2 ^ 7  =  -128 
+
+4) What  are  the  macros  for  maximum  and  minimum  values  of  character ?  --->   CHAR_MAX  and  CHAR_MIN  
+
+5) Where  are  they  defined  ?  --->  In  <limits.h>  file
+
+6) What  is  the  format  for  character ?  --->  %c
+
+7) character  ch;
+     Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  character  datatype 
+
+8) Char  ch;
+    Is  the  above  statement  valid ?  --->  No  becoz  char  is  a  keyword  and  hence  it  should  be  in  lowercase  

@@ -1,0 +1,22 @@
+bool  data  type
+--------------------
+1) What  is  the  size  of  bool ?  --->  1B  i.e. 8  bits
+
+2) What  are  the  two  values  of  bool ?  ---> true  and  false
+
+3) Where  are  bool , true  and  false  defined ?  --->  In  <stdbool.h>  file
+
+4) What  is  the  value  of  true  ?  --->  1
+     What  is  the  value  of  false  ?  --->  0
+     
+5) What  is  the  format  for  bool ?  --->   %d  becoz  true  is  1  and  false  is  0  which  are  integers
+
+6) Does  %b  format  exist ?  --->  No
+
+
+Note:
+1) Where  are  int , float  and  char  datatypes  defined ?  --->  No  file  becoz  they  are  keywords
+
+2) Where  is  bool  defined  ?  --->  In  <stdbool.h>  file  becoz  bool  is  not  a  keyword
+   
+3) Finally  header  file  contains  functions  and  macros  but  not  keywords

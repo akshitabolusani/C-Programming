@@ -1,0 +1,28 @@
+Variable  Initialization
+---------------------------
+1) int  x = 25;
+    What  is  the  name  of  variable ?  --->  'x' 
+    What  is  the  value  of  variable ?  --->  25       
+    What  is  the  size  of  variable ?  --->  4B
+    What  is  the  address  of  variable ?  ---> &x 
+
+2) What  is   '&'  operator  called  ?  --->  Address  operator
+
+3) How  to  obtain  address  of  a  variable ?  --->  &variable
+
+4) What  does  &x  do ?  --->  Gives  address  of  variable  'x'  (may  be  1000)  
+
+5) int  k;
+    What  is  the  value  of  variable  'k' ?  ---> Garbage  value  becoz  it  is  not  initialized
+
+6) float  m = 10.8;
+    What  is  the  name  of  variable ?  --->  m 
+    What  is  the  value  of  variable ?  --->  10.8
+    What  is  the  size  of  variable ?  --->  4B
+    What  is  the  address  of  variable ?  ---> &m
+    
+7) char  ch = 'g';
+    What  is  the  name  of  variable ?  --->  ch
+    What  is  the  value  of  variable ?  --->  'g'
+    What  is  the  size  of  variable ?  --->  1B
+    What  is  the  address  of  variable ?  --->  &ch  

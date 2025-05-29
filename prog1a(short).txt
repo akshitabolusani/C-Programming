@@ -1,0 +1,29 @@
+short  datatype
+-------------------
+1) How  much  memory  space  does  short  take ?  --->  2B  i.e.  16 bits
+											 Eg:  1010  0101  1110  0111
+
+2) What  is  the  first  bit  called ?  --->  Sign  bit
+    What  about  remaining  15  bits ? ---> Magnitude  bits
+
+3) What  does  signbit = 0  indicate  ? --->  Positive  magnitude
+    What  does  signbit = 1  indicate ? --->   Negative  magnitude
+
+4) Is  0010  0101  1110  0111  a  positive  (or)  negative  number  ?  --->  Positive  becoz  sign  bit  is  0
+    What  about   1010  0101  1110  0110  ?  --->  Negative  becoz  sign  bit  is  1
+
+5) What  is  the  maximum  value  of  short  integer ?  --->  2 ^ 15 - 1 = 32767
+     What  is  the  minimum  value  of  short  integer ?  --->  -2 ^ 15 = -32768
+     	     
+6) What  are  the  macros  for  maximum  and  minimum  values  of  short  integer ?  ---> 	SHRT_MAX   and  SHRT_MIN  
+
+7) Where  are  SHRT_MAX  and  SHRT_MIN  defined ?  --->  In  <limits.h>  file
+
+8) What  is  the  format  for  short  integer ?  --->  %hd  (or)  %hi  
+
+9) short  int   x;
+    short  x;
+    Are  the  above  two  statements  same ?  --->  Yes  becoz  int  is  optional  in  short  int
+
+10) Short  x;
+      Is  the  above  statement  valid ?  --->   No  becoz  short  is   a  keyword  and  hence  it  should  be  in  lowercase
